@@ -37,6 +37,6 @@ public class Main {
             System.out.println(responseDTO.getMessage());
         }
         System.out.println("Ticket generated Successfully"+responseDTO.getGeneratedTicketId());
-
+        System.out.println();
     }
 }
