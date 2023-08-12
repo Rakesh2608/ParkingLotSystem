@@ -15,7 +15,7 @@ public class TicketController {
     }
 
 
-    GenerateTicketResponseDTO generateTicket(GenerateTicketRequestDTO requestDTO){
+    public GenerateTicketResponseDTO generateTicket(GenerateTicketRequestDTO requestDTO){
         GenerateTicketResponseDTO ticketResponseDTO=null;
 
         try {

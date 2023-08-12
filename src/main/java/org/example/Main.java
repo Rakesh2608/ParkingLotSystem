@@ -31,7 +31,7 @@ public class Main {
         ticketRequestDTO.setVehicleType(VehicleType.MEDIUM);
         ticketRequestDTO.setGateId(10L);
 
-        GenerateTicketResponseDTO responseDTO=new GenerateTicketResponseDTO();
+        GenerateTicketResponseDTO responseDTO=ticketController.generateTicket(ticketRequestDTO);
 
         if(responseDTO.getResponseStatus().equals(ResponseStatus.FAILURE)){
             System.out.println(responseDTO.getMessage());
